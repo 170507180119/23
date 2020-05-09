@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/ch10_2_et"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="send_broadcast"
+        android:onClick="send_broadcast"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Ch10Activity"
+        android:onClick="ch10Activity"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="start_sub_activity"
+        android:onClick="startSubActivity"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="web"
+        android:onClick="web"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="contactsList"
+        android:onClick="contactsList"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="contactsDetail"
+        android:onClick="contactsDetail"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="showMap"
+        android:onClick="showMap"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="showPhoto"
+        android:onClick="showPhoto"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="PICK_CONTACT"
+        android:onClick="pickContact"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="implicitStart"
+        android:onClick="implicitStart"
+        android:layout_height="wrap_content" />
+</LinearLayout>
